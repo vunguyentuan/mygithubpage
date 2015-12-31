@@ -1,0 +1,27 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : [
+    "standard",
+    "standard-react"
+  ],
+  "env"     : {
+    "browser" : true
+  },
+  "globals" : {
+    "__DEV__"      : false,
+    "__PROD__"     : false,
+    "__DEBUG__"    : false,
+    "__DEBUG_NEW_WINDOW__" : false,
+    "React": true,
+    "ReactDOM": true
+  },
+  "rules": {
+    "semi" : [2, "never"],
+    "react-in-jsx-scope": 0,
+    "no-reserved-keys": 0,
+    "no-wrap-func": 0,
+    "react/jsx-quotes": 0,
+    "jsx-quotes": [2, "prefer-double"],
+    "spaced-line-comment": 0
+  }
+}
